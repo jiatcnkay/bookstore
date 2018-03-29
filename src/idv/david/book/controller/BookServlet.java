@@ -28,6 +28,7 @@ public class BookServlet extends HttpServlet {
 		String contentType = context.getInitParameter("contentType");
 		String outStr = "";
 
+		
 		BookDAO dao = new BookDAOImpl();
 		Gson gson = new Gson();
 
